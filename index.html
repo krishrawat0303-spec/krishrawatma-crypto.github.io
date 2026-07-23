@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Krish Rawat — Data Analyst Portfolio</title>
+<meta name="description" content="Krish Rawat — Data Analyst specializing in Power BI, Tableau, SQL & DAX. Dashboards that turn raw data into decisions." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- background grid + glow -->
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<!-- NAV -->
+<header class="topbar">
+  <div class="topbar__brand">
+    <span class="dot"></span> KRISH<span class="accent">.RAWAT</span>
+  </div>
+  <nav class="topbar__nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn--ghost topbar__resume" href="assets/resume/Krish_Rawat_Resume.pdf" target="_blank">Resume ↗</a>
+</header>
+
+<main>
+  <!-- HERO — styled like a live dashboard -->
+  <section class="hero" id="top">
+    <div class="hero__intro">
+      <p class="eyebrow">// BBA student · data analyst · dashboard designer</p>
+      <h1>I turn raw rows<br> into <span class="accent">decisions.</span></h1>
+      <p class="hero__sub">
+        BBA student building Power BI &amp; Tableau dashboards that answer real business
+        questions — from retail performance to sales trends to profitability. Currently a
+        Big Data &amp; Business Management Intern at IBM SkillsBuild (AICTE) and a former
+        Data Analyst Extern at Zetheta Algorithm Pvt. Ltd.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View Dashboards</a>
+        <a href="https://www.linkedin.com/in/krish-rawat-2114b4324/" target="_blank" class="btn btn--ghost">Connect on LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- live "KPI card" panel — the signature element -->
+    <div class="hero__panel">
+      <div class="panel__header">
+        <span class="panel__title">profile_metrics.pbix</span>
+        <span class="panel__live"><span class="pulse"></span> live</span>
+      </div>
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <span class="kpi-label">Dashboards Shipped</span>
+          <span class="kpi-value" data-count="3">0</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Rows Analyzed</span>
+          <span class="kpi-value" data-count="10">0</span>
+          <span style="font-family:var(--font-mono); font-size:11px; color:var(--text-faint);">thousand+</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">BI Platforms</span>
+          <span class="kpi-value" data-count="2">0</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Certifications</span>
+          <span class="kpi-value" data-count="4">0</span>
+        </div>
+      </div>
+      <div class="sparkline" aria-hidden="true">
+        <svg viewBox="0 0 300 60" preserveAspectRatio="none">
+          <polyline points="0,45 30,40 60,42 90,25 120,30 150,15 180,20 210,10 240,18 270,8 300,12" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <p class="eyebrow">01 · about</p>
+    <div class="about__grid">
+      <p class="about__lead">
+        I'm a BBA student who believes a good dashboard should feel obvious in hindsight —
+        the right numbers, in the right place, telling the truth clearly.
+      </p>
+      <p class="about__body">
+        I'm currently pursuing my <strong>BBA at Rukmini Devi Institute of Advanced Studies</strong>,
+        New Delhi, with hands-on data analysis experience across two internships. My work sits at
+        the intersection of business context and clean visualization: I dig into raw data, model it,
+        and design reports decision-makers can actually use. I work primarily in <strong>Power BI</strong>
+        and <strong>Tableau</strong>, with <strong>SQL</strong> and <strong>DAX</strong> to shape the
+        data underneath, and Excel for fast, ad-hoc analysis — backed by coursework in
+        <strong> Financial Modeling</strong>, <strong>P&amp;L Analysis</strong>, and
+        <strong> Forecasting</strong>. I'm currently a <strong>Big Data &amp; Business Management
+        Intern at IBM SkillsBuild</strong> (in collaboration with AICTE), and previously worked as a
+        <strong> Data Analyst Extern at Zetheta Algorithm Pvt. Ltd.</strong>, where I built a Risk
+        Dashboard covering 1,000+ scenario outcomes that cut manual reporting effort by ~40%.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS — capability matrix -->
+  <section id="skills" class="section">
+    <p class="eyebrow">02 · capability matrix</p>
+    <h2 class="section__title">Tools I build with</h2>
+    <div class="matrix">
+      <div class="matrix__row matrix__row--head">
+        <span>Tool</span><span>Category</span><span>Proficiency</span>
+      </div>
+      <div class="matrix__row"><span>Power BI</span><span>Dashboards, DAX, Data Modeling</span><div class="bar"><i style="--w:90%"></i></div></div>
+      <div class="matrix__row"><span>Tableau</span><span>Dashboard &amp; Data Visualization</span><div class="bar"><i style="--w:85%"></i></div></div>
+      <div class="matrix__row"><span>DAX</span><span>Calculated Measures</span><div class="bar"><i style="--w:82%"></i></div></div>
+      <div class="matrix__row"><span>SQL</span><span>SELECT, JOIN, Aggregates, CRUD</span><div class="bar"><i style="--w:70%"></i></div></div>
+      <div class="matrix__row"><span>Excel</span><span>Pivot Tables, VLOOKUP, Cleaning</span><div class="bar"><i style="--w:88%"></i></div></div>
+      <div class="matrix__row"><span>Financial Modeling</span><span>Forecasting, Ratio &amp; Scenario Analysis</span><div class="bar"><i style="--w:75%"></i></div></div>
+      <div class="matrix__row"><span>Dashboard Design</span><span>Craft</span><div class="bar"><i style="--w:90%"></i></div></div>
+      <div class="matrix__row"><span>Data Visualization</span><span>Craft</span><div class="bar"><i style="--w:90%"></i></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <p class="eyebrow">03 · selected work</p>
+    <h2 class="section__title">Dashboards &amp; Projects</h2>
+
+    <div class="projects">
+      <article class="project-card">
+        <div class="project-card__media">
+          <img src="assets/images/retail-dashboard.png" alt="Retail Performance & Customer Insights Dashboard preview" />
+          <span class="project-card__tag">Power BI</span>
+        </div>
+        <div class="project-card__body">
+          <h3>Retail Performance &amp; Customer Insights Dashboard</h3>
+          <p>Built from 5,000+ rows to track monthly revenue, top revenue contributors, and
+             revenue by country across UK, EU, and international markets. <strong>₹8.91M revenue</strong>
+             across <strong>19K orders</strong> from <strong>4,338 customers</strong>, with 2,845 repeat
+             buyers — powered by 12+ custom DAX measures.</p>
+          <ul class="tag-list">
+            <li>Power BI</li><li>DAX</li><li>Data Modeling</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/krishrawatma-crypto/retail-performance-customer-insights" target="_blank">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__media">
+          <img src="assets/images/sales-dashboard.png" alt="Sales Performance Dashboard preview" />
+          <span class="project-card__tag">Power BI</span>
+        </div>
+        <div class="project-card__body">
+          <h3>Sales Performance Dashboard</h3>
+          <p>Analyzed 5,000+ rows across 4 regions to calculate revenue, profit &amp; COGS —
+             cleaning 1,200+ dirty rows and identifying 3 underperforming sub-categories.
+             <strong>₹1.34M total sales</strong>, <strong>₹175.23K net profit</strong> at a
+             <strong>13.05% margin</strong>, with interactive segment, region &amp; category filters.</p>
+          <ul class="tag-list">
+            <li>Power BI</li><li>DAX</li><li>KPI Tracking</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/krishrawatma-crypto/sales-performance-dashboard" target="_blank">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__media">
+          <img src="assets/images/walmart-dashboard.png" alt="Walmart Retail Sales & Profitability Dashboard preview" />
+          <span class="project-card__tag">Tableau</span>
+        </div>
+        <div class="project-card__body">
+          <h3>Walmart Retail Sales &amp; Profitability Dashboard</h3>
+          <p>Analyzed <strong>₹14.92M in sales</strong>, <strong>₹1.52M profit</strong>, and 8,400+
+             orders across 4 US regions with 6 interactive slicers. Corporate segment led with
+             ₹5.50M in sales; Technology drove 58.24% of total profit contribution.</p>
+          <ul class="tag-list">
+            <li>Tableau</li><li>Data Visualization</li><li>Profitability Analysis</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/krishrawatma-crypto/walmart-retail-sales-profitability" target="_blank">Code ↗</a>
+            <a href="https://public.tableau.com/app/profile/krish.rawat/vizzes" target="_blank">Live on Tableau Public ↗</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <p class="eyebrow">04 · experience</p>
+    <h2 class="section__title">Where I've worked</h2>
+    <div class="timeline">
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <h3>Big Data &amp; Business Management Intern</h3>
+          <span class="timeline__meta">IBM SkillsBuild — AICTE &amp; BharatCares (CSRBOX) · June 2026 – Present</span>
+          <p>Completing a 6-week virtual internship covering Business Intelligence, Data Collection
+             &amp; Cleaning, Exploratory Data Analysis, and Dashboarding through expert-led
+             masterclasses. Developing a final project aligned with the UN SDGs.</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <h3>Data Analyst Extern</h3>
+          <span class="timeline__meta">Zetheta Algorithm Pvt. Ltd. · April 2026 – June 2026</span>
+          <p>Analyzed raw datasets using DAX and Power BI to surface key business insights, trends,
+             and patterns. Built a Risk Dashboard showing 1,000+ scenario outcomes and created clear
+             reports that reduced manual reporting effort by ~40%.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="section">
+    <p class="eyebrow">05 · certificates</p>
+    <h2 class="section__title">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <h4>Financial Modeling Certification</h4>
+        <span class="cert-card__issuer">KPMG</span>
+        <p>Financial Analysis, Forecasting and Valuation</p>
+      </div>
+      <div class="cert-card">
+        <h4>Data Visualization Job Simulation</h4>
+        <span class="cert-card__issuer">Tata Consultancy Services</span>
+        <p>Dashboard Design and Data Cleaning</p>
+      </div>
+      <div class="cert-card">
+        <h4>Excel Skills for Business Job Simulation</h4>
+        <span class="cert-card__issuer">Goldman Sachs</span>
+        <p>Advanced Formulas and Pivot Tables</p>
+      </div>
+      <div class="cert-card">
+        <h4>Power BI Micro Course</h4>
+        <span class="cert-card__issuer">Skill Course</span>
+        <p>Dashboard Building, Data Visualization and DAX Basics</p>
+      </div>
+      <!-- IBM SkillsBuild badge/certificate intentionally omitted — not yet issued.
+           Add a 5th card here once received: title "Big Data & Business Management",
+           issuer "IBM SkillsBuild / AICTE". -->
+    </div>
+  </section>
+</main>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="footer">
+  <div class="footer__inner">
+    <div>
+      <h2>Let's build something with data.</h2>
+      <p>Open to Data Analyst &amp; BI opportunities — always happy to talk dashboards.</p>
+    </div>
+    <div class="footer__links">
+      <a href="https://www.linkedin.com/in/krish-rawat-2114b4324/" target="_blank">LinkedIn ↗</a>
+      <a href="https://public.tableau.com/app/profile/krish.rawat/vizzes" target="_blank">Tableau Public ↗</a>
+      <a href="https://github.com/krishrawatma-crypto" target="_blank">GitHub ↗</a>
+      <a href="assets/resume/Krish_Rawat_Resume.pdf" target="_blank">Resume ↗</a>
+    </div>
+  </div>
+  <p class="footer__copy">© <span id="year"></span> Krish Rawat · Built with HTML, CSS &amp; a lot of DAX debugging.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
